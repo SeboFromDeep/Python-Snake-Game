@@ -105,7 +105,7 @@ def quitGame(window) -> None:
 
 
 def main():
-    # TODO: usar Singleton para controlar el número de ventanas
+    # TODO: intentar usar Singleton para controlar el número de ventanas
     pygame.init()
     win = Utils.initWindow()
     menu(win)
